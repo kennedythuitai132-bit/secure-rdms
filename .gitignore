@@ -1,0 +1,27 @@
+# Local environment
+.env
+
+# Uploaded research files are encrypted at rest and must never be committed
+uploads/*
+!uploads/.gitkeep
+
+# Database dumps and local SQLite leftovers
+*.sqlite
+*.sqlite3
+*.db
+storage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Office / OS clutter
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/

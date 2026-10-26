@@ -1,0 +1,8 @@
+# Normalise line endings so the PHP/CSS/SQL files run unchanged on Linux hosting.
+* text=auto
+*.php text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.png binary
+*.docx binary
